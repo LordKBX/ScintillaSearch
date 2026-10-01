@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>ScintillaSearch.LordKBX</id>
+    <version>1.0</version>
+    <title>ScintillaSearch</title>
+    <authors>LordKBX</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <icon>Icon.png</icon>
+    <projectUrl>https://github.com/LordKBX/ScintillaSearch</projectUrl>
+    <description>A module for adding Search module on a Scintilla TextZone in WinForms</description>
+    <releaseNotes>Initiale release</releaseNotes>
+    <copyright>LordKBX 2026-whatever year</copyright>
+    <tags>Scintilla ScintillaNet Scintilla5 Scintilla5.NET Search Winform</tags>
+  </metadata>
+  <files>
+    <file src="bin\Release\net8.0-windows\ScintillaSearch.dll" target="lib\net8.0\ScintillaSearch.dll" />
+  </files>
+</package>
