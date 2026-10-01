@@ -7,19 +7,21 @@
     <authors>LordKBX</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">MIT</license>
-    <icon>Icon.png</icon>
+    <icon>icon.png</icon>
     <projectUrl>https://github.com/LordKBX/ScintillaSearch</projectUrl>
     <description>A module for adding Search module on a Scintilla TextZone in WinForms</description>
     <releaseNotes>Initiale release</releaseNotes>
     <copyright>LordKBX 2026-whatever year</copyright>
     <tags>Scintilla ScintillaNet Scintilla5 Scintilla5.NET Search Winform</tags>
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="Scintilla5.NET" version="7.0.0" />
+      </group>
+    </dependencies>
   </metadata>
   <files>
     <file src="bin\Release\net8.0-windows\ScintillaSearch.dll" target="lib\net8.0\ScintillaSearch.dll" />
+    <file src="readme.txt" target="" />
+    <file src="icon.png" target="" />
   </files>
-  <dependencies>
-    <group targetFramework="uap">
-      <dependency id="Scintilla5.NET" version="7.0.0" />
-    </group>
-  </dependencies>
 </package>
