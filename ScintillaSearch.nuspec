@@ -13,6 +13,7 @@
     <releaseNotes>Initiale release</releaseNotes>
     <copyright>LordKBX 2026-whatever year</copyright>
     <tags>Scintilla ScintillaNet Scintilla5 Scintilla5.NET Search Winform</tags>
+    <readme>readme.md</readme>
     <dependencies>
       <group targetFramework="net8.0">
         <dependency id="Scintilla5.NET" version="7.0.0" />
@@ -21,7 +22,7 @@
   </metadata>
   <files>
     <file src="bin\Release\net8.0-windows\ScintillaSearch.dll" target="lib\net8.0\ScintillaSearch.dll" />
-    <file src="readme.txt" target="" />
+    <file src="readme.md" target="" />
     <file src="icon.png" target="" />
   </files>
 </package>
