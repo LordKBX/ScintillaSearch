@@ -17,4 +17,9 @@
   <files>
     <file src="bin\Release\net8.0-windows\ScintillaSearch.dll" target="lib\net8.0\ScintillaSearch.dll" />
   </files>
+  <dependencies>
+    <group targetFramework="uap">
+      <dependency id="Scintilla5.NET" version="7.0.0" />
+    </group>
+  </dependencies>
 </package>
